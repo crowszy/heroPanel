@@ -1,34 +1,28 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый герой",
-      "description": "Первый герой в рейтинге!",
-      "element": "fire"
-    },
-    {
       "id": 2,
       "name": "Неизвестный герой",
       "description": "Скрывающийся в тени",
       "element": "wind"
     },
     {
-      "id": 3,
-      "name": "Морской герой",
-      "description": "Как аквамен, но не из DC",
-      "element": "water"
-    },
-    {
-      "id": "d15ddfd8-83de-4414-b3f8-0b1935ba0cba",
-      "name": "Daniel",
-      "description": "Жрать патрон блять",
-      "element": "fire"
-    },
-    {
       "id": "ca168f23-5e11-4e3b-ad42-519c4fa2a02f",
       "name": "Антонио",
       "description": "Пердеть в подушку",
       "element": "earth"
+    },
+    {
+      "id": "ddf41412-f844-4976-b327-dd1172fceee0",
+      "name": "Верони4к",
+      "description": "Шмыргаю носиком",
+      "element": "water"
+    },
+    {
+      "id": "175fcad7-be21-4d62-a19e-2f6964e06d90",
+      "name": "АУЕШНИК1337",
+      "description": "Бурить анал",
+      "element": "fire"
     }
   ],
   "filters": [
