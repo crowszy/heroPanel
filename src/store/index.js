@@ -1,8 +1,10 @@
 import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import ReduxThunk from 'redux-thunk';
-import filters from '../reducers/filters';
-import heroes from '../reducers/heroes';
+// import filters from '../reducers/filters';
+// import heroes from '../reducers/heroes';
+import heroes from '../components/heroesList/heroesSlice';
+import filters from '../components/heroesFilters/filtersSlice';
 
 const stringMiddleware = (store) => (next) => (action) => {
     if (typeof action === 'string') {

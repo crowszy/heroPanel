@@ -1,46 +1,51 @@
 {
   "heroes": [
     {
-      "id": 2,
-      "name": "Неизвестный герой",
-      "description": "Скрывающийся в тени",
-      "element": "wind"
-    },
-    {
-      "id": "ca168f23-5e11-4e3b-ad42-519c4fa2a02f",
-      "name": "Антонио",
-      "description": "Пердеть в подушку",
-      "element": "earth"
-    },
-    {
-      "id": "70345552-eb5b-4611-92fd-7cb53b72e006",
-      "name": "АУЕШНИК1337",
-      "description": "Бурю анал",
+      "id": "140d6413-aaaa-4fd4-957f-0cf423ec8db0",
+      "name": "Верони4к",
+      "description": "шмыргаю носиком",
       "element": "fire"
+    },
+    {
+      "id": "dd9b9e18-33ea-4469-8169-1c7fdc58441d",
+      "name": "Данил Воронов",
+      "description": "Подписан на группу VIZIT вкантакти",
+      "element": "water"
+    },
+    {
+      "id": "8d5aad42-c0f7-47e8-a354-2787b4c593ed",
+      "name": "Рандом",
+      "description": "хуйню воротить умею я",
+      "element": "wind"
     }
   ],
   "filters": [
     {
+      "id": "all",
       "name": "all",
       "label": "Все",
       "className": "btn-outline-dark"
     },
     {
+      "id": "fire",
       "name": "fire",
       "label": "Огонь",
       "className": "btn-danger"
     },
     {
+      "id": "water",
       "name": "water",
       "label": "Вода",
       "className": "btn-primary"
     },
     {
+      "id": "wind",
       "name": "wind",
       "label": "Ветер",
       "className": "btn-success"
     },
     {
+      "id": "earth",
       "name": "earth",
       "label": "Земля",
       "className": "btn-secondary"

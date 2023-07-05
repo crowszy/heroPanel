@@ -7,22 +7,22 @@
 // Представьте, что вы попросили бэкенд-разработчика об этом
 
 import { useEffect } from "react";
-import { useHttp } from "../../hooks/http.hook";
 import { useDispatch, useSelector } from "react-redux";
+import store from "../../store";
 import classNames from "classnames";
 
-import { fetchFilters, activeFilterChanged } from "../../actions";
+import { activeFilterChanged, fetchFilters, selectAll } from "./filtersSlice";
 import Spinner from "../spinner/Spinner";
 
 
 const HeroesFilters = () => {
 
-    const {filters, filtersLoadingStatus, activeFilter} = useSelector(state => state.filters);
+    const {filtersLoadingStatus, activeFilter} = useSelector(state => state.filters);
+    const filters = selectAll(store.getState())
     const dispatch = useDispatch();
-    const {request} = useHttp();
 
     useEffect(() => {
-        dispatch(fetchFilters(request));
+        dispatch(fetchFilters());
         
             // eslint-disable-next-line
     }, []);
